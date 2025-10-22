@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input{
+            margin-bottom: 10px;
+            /* width: 200px; */
+            height: 30px;
+        }
+    </style>
 </head>
 <body>
 
 <!-- php use  page -->
-<form >
+<div style="padding: 20px;border: 2px solid black; width: 50%;text-align: center;margin: 10px auto;">
+    <form >
     <input type="text" value="ali"  placeholder="Name"> <br>
     <input type="email" value="abc@gmail.com"  placeholder="Email" required> <br>
     <input type="number" placeholder="phone number" required><br>
@@ -19,11 +27,43 @@
         Male
     </label> <input type="radio" id="male" name="gender">
    <label for="female">Female</label> <input type="radio" id="female" name="gender"><br>
+
+   <textarea name="" id="" rows="4" cols="30"></textarea>
+   <br>
+   <!-- dropdown menu -->
+    <select name="" id="">
+        <option value="" disabled selected>Select option</option>
+        <option value="">first</option>
+        <option value="">second</option>
+        <option value="">third</option>
+        <option value="">fourth</option>
+    </select>
+    <select name="" id=""  size="2" multiple="multiple">
+        <option value="" disabled selected>Select option</option>
+        <option value="">first</option>
+        <option value="">second</option>
+        <option value="">third</option>
+        <option value="">fourth</option>
+    </select>
+    <br>
+
+    <input type="date">
+    <br>
+    <!-- <input type="color"> -->
+     <input type="file" accept="png">
+     <br>
+
    <input type="checkbox"> <label for=""> I agree</label>
    <br>
     <input type="submit">
 
 </form>
+</div>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14418.620807669173!2d68.34586334999999!3d25.38286985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1761060055001!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HQ_ytw58tC4?si=PQyKfGPQ84VjvUGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
 </body>
 </html>
